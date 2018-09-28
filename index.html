@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="cars.css">
+<title>Cars</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+ <header>
+ <div id="wrapper">
+	   <h1>4 Cars 1 Choice</h1>
+
+    <nav>
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="cars.html">Cars</a></li>
+     <li><a href="">About</a></li>
+     <li><a href="">Contact</a></li>
+    </ul>	
+    </nav>
+ </div>
+ </header>
+    <div id="content">
+     <h3> Choose Your Car</h3>
+     <form>
+     <h4>Make</h4>
+       <select  id="cars" name="cars">
+	      <option value="Honda">Honda</option>
+	      <option>Tesla</option>
+	      <option>Infinity</option>
+	      <option>Acura</option>
+       </select>
+       <h4>Type</h4>
+       <select id="make" name="type">
+   	    <option>Coupe</option>
+   	    <option>Suv</option>
+       </select>
+       <button type="button" name="button" onclick="clicked()">click</button>
+       <button type="button" name="button" onclick="window.location.reload()">Reset</button>
+     </form>
+    </div>
+
+    <h2 id="Car"></h2>
+    <h2 id="car-price"></h2>
+<script src="cars.js"></script>
+</body>
+</html>

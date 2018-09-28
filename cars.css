@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding:0;
+	background-image: url("http://www.desktopwallpaperhd.net/wallpapers/5/e/light-night-cartoon-car-drive-widewallpapers-wallpapers-highway-54958.jpg");
+}
+h1{
+	font-size: 40px;
+	color: red;
+}
+#wrapper{
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+}
+li{ 
+	display: inline-block;
+	margin-right:40px;
+	margin-top: 10px;
+	margin-left: 120px;
+	align-items: center;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+#content{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+h4{
+	color: red;
+	display: inline-block;
+}
+h2{
+	color: red;
+	text-align: center;
+}
+h3{
+	font-size:48px;
+	color: red;
+}
